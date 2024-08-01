@@ -1,9 +1,130 @@
-.contenedor{
+body{
+    background-color: black;
     color: white;
-    background-color: blue;
-    grid-template-columns: (4, 1fr);
+
+}   
+nav{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    .BarraNav{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        #opciones{
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            width: 25%;
+            
+        }
+        #usuario{
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            width: 25%;
+        }
+        #cursos{
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            width: 25%;
+            
+        }
+    }
+    form{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 25%;
+        
+    }
+}
+.contenedor{
+    width: 100%;
+    display: grid;
+
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    justify-content: space-between;
+    #VerCursos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        color: black;
+        border-radius: 15%;
+
+        padding: 2%;
+    }
+    #EliminarCurso{
+
+        padding: 2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        color: black;
+        border-radius: 15%;
+        padding: 2%;
+
+    }
+    #EditarCurso{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        color: black;
+        border-radius: 15%;
+        padding: 2%;
+
+    }
+    #AgregarCurso{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        color: black;
+        border-radius: 15%;
+        padding: 2%;
+    }
 
 }
-span .contenedor{
-    color: #000;
+
+
+.VerCursos{
+    height: 95vh;
+    width: 100%;
+    .container{
+        height: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .con{
+            background-color: white;
+            color:black;
+            height: 50%;
+            width: 50%;
+
+            border-radius: 15%;            
+            h1{
+                display: flex;
+                justify-content: center;
+            }
+            #cursos{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+    }
+
 }

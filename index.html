@@ -8,16 +8,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="contenedor">
-            <div class="Cursos">Cursos
-                
-            </div>
-            <span id="AGC">Agregar curso</span>
-            <span id="ELC">Eliminar curso</span>
-            <span id="MOC">Mostrar cursos</span>
-            <span id="EDC">Editar Informacion de un curso</span>
+    <nav>
+        <div class="BarraNav">
+            <div id="opciones">Opciones</div>
+            <div id="usuario">Usuario</div>
+            <div id="cursos">Cursos</div>
+            <form action="" method="GET" autocomplete="" name="filtrar">
+                <input type="text">
+            </form>
         </div>
+    </nav>
+    <header>
     </header>
+    <div class="contenedor">
+            <span id="VerCursos"> <a href="VerCursos.html">Ver Cursos</a></span>
+            <span id="EliminarCurso">Eliminar el curso</span>
+            <span id="EditarCurso">Editar Informacion del curso</span>
+            <span id="AgregarCurso" ><a href="agregarcurso.html">Agregar un curso</a></span>
+    </div>
 </body>
 </html>
