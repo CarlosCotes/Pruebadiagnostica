@@ -1,0 +1,9 @@
+.contenedor{
+    color: white;
+    background-color: blue;
+    grid-template-columns: (4, 1fr);
+
+}
+span .contenedor{
+    color: #000;
+}
